@@ -1,4 +1,4 @@
-# Get-TeamsVersion
+# Get-RemoteTeamsVersion
 This script returns the installed MS Teams Version for each user profile.
 
 Teams: Check client version using PowerShell
@@ -12,6 +12,9 @@ Currently the script doesn’t accept any parameter.
 It's recommended to run the script with elevated privileges' 
 
 Change Log
+
+v1.2 - 2021/08/23
+		Added functionality to check a computer's Teams version remotely
 
 v1.1 - 2020/02/26
         Added Architecture to the output.
